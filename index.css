@@ -1,0 +1,47 @@
+ .calendar {
+	border:1px solid #000;
+	width:398px;
+	height:300px;
+}
+.header {
+	width:398px;
+	text-align:center;
+	height:35px;
+	line-height: 35px;
+
+}
+
+.btn {
+	margin-top: 15%;
+	background-color: #fff;
+} 
+
+.pull-left {
+	margin-left: 5px;
+}
+
+.pull-right {
+	margin-right: 5px;
+}
+
+.jt {
+	background-color: #CFDAE7;
+	border: 1px solid #DDD;
+}
+
+.dj {
+	background-color: #777;
+}
+
+.time>tbody>tr {
+	cursor: pointer;
+}
+
+.zcClass {
+	color:red;
+}
+
+
+.offDay {
+	color:#bfbfbf;
+} 

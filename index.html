@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="calendar">
+		<form class="header">
+			<div class="btn-group btn-group-xs pull-left">
+				<span id="doubleLeft" class="btn"><<</span>
+				<span id="left" class="btn"><</span>
+			</div>
+			
+			<div class="btn-group btn-group-xs pull-right">
+				<span id="right" class="btn">></span>
+				<span id="doubleRight" class="btn">>></span>
+			</div>
+			<select class="nian"></select>年
+			<select class="yue"></select>月
+			<div class="btn-group btn-group-xs">
+				<span id="reset" class="btn">T</span>
+			</div>
+		</form>
+		<table class="time table">
+			<tbody>
+				<tr align="center"><th>周次</th><th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th></tr>
+			</tbody>
+		</table>
+	</div>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="index1.js"></script>
+	<script type="text/javascript" src="dateSet.js"></script>
+</body>
+</html>
